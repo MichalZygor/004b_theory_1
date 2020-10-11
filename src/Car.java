@@ -10,4 +10,13 @@ public class Car {
         model = m;
         color = c;
     }
+
+    Car(int y, String b, String m){
+        year = y;
+        brand = b;
+        model = m;
+    }
+
+    Car(){
+    }
 }
